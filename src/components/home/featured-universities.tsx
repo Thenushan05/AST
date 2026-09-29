@@ -305,7 +305,9 @@ export default function FeaturedUniversities() {
 
                     {/* View University Action Link */}
                     <Link
-                      href="/#contact-form"
+                      href={uni.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#2563EB] group-hover:text-[#1D4ED8] transition-colors mt-auto w-fit pt-2"
                     >
                       <span>View University</span>
