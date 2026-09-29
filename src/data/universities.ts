@@ -6,6 +6,7 @@ export interface University {
   image: string;
   popularAreas: string[];
   level: string;
+  url: string;
 }
 
 export const UNIVERSITIES: University[] = [
@@ -17,6 +18,7 @@ export const UNIVERSITIES: University[] = [
     image: "/images/universities/oxford-brookes.jpg",
     popularAreas: ["Business", "Architecture", "Hospitality"],
     level: "Undergraduate & Postgraduate",
+    url: "https://www.brookes.ac.uk/",
   },
   {
     id: "monash-university",
@@ -26,6 +28,7 @@ export const UNIVERSITIES: University[] = [
     image: "/images/universities/monash.jpg",
     popularAreas: ["Engineering", "Medicine", "IT"],
     level: "All Levels",
+    url: "https://www.monash.edu/",
   },
   {
     id: "university-toronto",
@@ -35,6 +38,7 @@ export const UNIVERSITIES: University[] = [
     image: "/images/universities/toronto.jpg",
     popularAreas: ["Computer Science", "Finance", "Life Sciences"],
     level: "All Levels",
+    url: "https://www.utoronto.ca/",
   },
   {
     id: "university-manchester",
@@ -44,6 +48,7 @@ export const UNIVERSITIES: University[] = [
     image: "/images/universities/manchester.jpg",
     popularAreas: ["Data Science", "Engineering", "Business"],
     level: "Undergraduate & Postgraduate",
+    url: "https://www.manchester.ac.uk/",
   },
   {
     id: "university-melbourne",
@@ -53,6 +58,7 @@ export const UNIVERSITIES: University[] = [
     image: "/images/universities/melbourne.jpg",
     popularAreas: ["Medicine", "Law", "Arts"],
     level: "Undergraduate & Postgraduate",
+    url: "https://www.unimelb.edu.au/",
   },
   {
     id: "mcgill-university",
@@ -62,6 +68,7 @@ export const UNIVERSITIES: University[] = [
     image: "/images/universities/mcgill.jpg",
     popularAreas: ["Political Science", "Economics", "Life Sciences"],
     level: "All Levels",
+    url: "https://www.mcgill.ca/",
   },
   {
     id: "tum-germany",
@@ -71,6 +78,7 @@ export const UNIVERSITIES: University[] = [
     image: "/images/universities/tum.jpg",
     popularAreas: ["Engineering", "Physics", "Informatics"],
     level: "Undergraduate & Postgraduate",
+    url: "https://www.tum.de/en/",
   },
   {
     id: "university-tokyo",
@@ -80,6 +88,7 @@ export const UNIVERSITIES: University[] = [
     image: "/images/universities/tokyo.jpg",
     popularAreas: ["Robotics", "Economics", "Arts"],
     level: "Undergraduate & Postgraduate",
+    url: "https://www.u-tokyo.ac.jp/en/",
   },
   {
     id: "nus-singapore",
@@ -89,6 +98,7 @@ export const UNIVERSITIES: University[] = [
     image: "/images/universities/nus.jpg",
     popularAreas: ["Business Analytics", "Engineering", "Law"],
     level: "All Levels",
+    url: "https://nus.edu.sg/",
   },
 ];
 
