@@ -93,27 +93,46 @@ export default function Footer() {
           {/* Contact Info */}
           <div>
             <h3 className="text-white font-semibold text-lg mb-6">Contact Us</h3>
-            <ul className="space-y-4 text-sm">
-              <li className="flex flex-col">
-                <span className="text-gray-400 mb-1">Phone</span>
-                <a href="tel:+94760344695" className="text-white font-medium hover:text-bright-gold transition-colors">
-                  +94 76 034 4695
-                </a>
-              </li>
-              <li className="flex flex-col">
-                <span className="text-gray-400 mb-1">Email</span>
-                <a href="mailto:adhigroupofcompany@gmail.com" className="text-white font-medium hover:text-bright-gold transition-colors">
-                  adhigroupofcompany@gmail.com
-                </a>
-              </li>
-              <li className="flex flex-col">
-                <span className="text-gray-400 mb-1">Address</span>
-                <span className="text-white">
-                  Chankanai East, Chankanai,<br />
-                  Jaffna, Sri Lanka
-                </span>
-              </li>
-            </ul>
+            
+            <div className="space-y-6">
+              {/* Sri Lanka Office */}
+              <ul className="space-y-3 text-sm">
+                <li className="flex flex-col">
+                  <span className="text-bright-gold mb-1 font-semibold">Sri Lanka (Head Office)</span>
+                  <a href="tel:+94760344695" className="text-white font-medium hover:text-bright-gold transition-colors">
+                    +94 76 034 4695
+                  </a>
+                </li>
+                <li className="flex flex-col">
+                  <a href="mailto:adhigroupofcompany@gmail.com" className="text-white font-medium hover:text-bright-gold transition-colors break-all">
+                    adhigroupofcompany@gmail.com
+                  </a>
+                </li>
+                <li className="flex flex-col">
+                  <span className="text-gray-400">
+                    Chankanai East, Chankanai,<br />
+                    Jaffna, Sri Lanka
+                  </span>
+                </li>
+              </ul>
+
+              {/* India Office */}
+              <ul className="space-y-3 text-sm">
+                <li className="flex flex-col">
+                  <span className="text-bright-gold mb-1 font-semibold">India Branch</span>
+                  <a href="tel:+917305314877" className="text-white font-medium hover:text-bright-gold transition-colors">
+                    +91 7305314877
+                  </a>
+                </li>
+                <li className="flex flex-col">
+                  <span className="text-gray-400">
+                    38/21, G-1, Rajeshwari nagar,<br />
+                    Thanjavur - 613005,<br />
+                    Tamil Nadu, India.
+                  </span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
