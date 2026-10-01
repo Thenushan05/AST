@@ -65,9 +65,14 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="text-sm font-medium text-gray-500 mb-1">Phone</p>
-                    <a href="tel:+94760344695" className="text-lg font-bold text-navy hover:text-royal-blue transition-colors">
-                      +94 76 034 4695
-                    </a>
+                    <div className="flex flex-col gap-1">
+                      <a href="tel:+94760344695" className="text-lg font-bold text-navy hover:text-royal-blue transition-colors">
+                        <span className="text-sm font-normal text-gray-500 mr-2">LK:</span>+94 76 034 4695
+                      </a>
+                      <a href="tel:+917305314877" className="text-lg font-bold text-navy hover:text-royal-blue transition-colors">
+                        <span className="text-sm font-normal text-gray-500 mr-2">IN:</span>+91 7305314877
+                      </a>
+                    </div>
                   </div>
                 </div>
 
@@ -87,12 +92,22 @@ export default function ContactSection() {
                   <div className="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6 text-royal-blue" />
                   </div>
-                  <div>
-                    <p className="text-sm font-medium text-gray-500 mb-1">Office Address</p>
-                    <p className="text-lg font-medium text-navy leading-relaxed">
-                      Chankanai East, Chankanai,<br />
-                      Jaffna, Sri Lanka
-                    </p>
+                  <div className="space-y-4">
+                    <div>
+                      <p className="text-sm font-medium text-gray-500 mb-1">Sri Lanka Office</p>
+                      <p className="text-lg font-medium text-navy leading-relaxed">
+                        Chankanai East, Chankanai,<br />
+                        Jaffna, Sri Lanka
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm font-medium text-gray-500 mb-1">India Office</p>
+                      <p className="text-lg font-medium text-navy leading-relaxed">
+                        38/21, G-1, Rajeshwari nagar,<br />
+                        Thanjavur - 613005,<br />
+                        Tamil Nadu, India.
+                      </p>
+                    </div>
                   </div>
                 </div>
 
